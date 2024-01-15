@@ -13,5 +13,18 @@ public class Animales {
     String raza;
     int edad;
     String nombreDueño;
+
+    public Animales(String nombre, String raza, int edad, String nombreDueño) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.edad = edad;
+        this.nombreDueño = nombreDueño;
+    }
+
+    public Animales() {
+    }
+    
+    
+    
     
 }
