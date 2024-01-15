@@ -59,6 +59,18 @@ public class Animales {
     public void setNombreDueño(String nombreDueño) {
         this.nombreDueño = nombreDueño;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Animales{");
+        sb.append("nombre=").append(nombre);
+        sb.append(", raza=").append(raza);
+        sb.append(", edad=").append(edad);
+        sb.append(", nombreDue\u00f1o=").append(nombreDueño);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
     
