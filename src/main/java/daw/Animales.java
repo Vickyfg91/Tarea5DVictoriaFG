@@ -12,5 +12,6 @@ public class Animales {
     String nombre;
     String raza;
     int edad;
+    String nombreDueño;
     
 }

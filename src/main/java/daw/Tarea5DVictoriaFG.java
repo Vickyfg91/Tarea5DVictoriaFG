@@ -11,6 +11,6 @@ package daw;
 public class Tarea5DVictoriaFG {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }
