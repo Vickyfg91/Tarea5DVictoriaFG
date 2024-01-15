@@ -9,10 +9,10 @@ package daw;
  * @author vickyfg
  */
 public class Animales {
-    private String nombre;
-    private String raza;
-    private int edad;
-    private String nombreDueño;
+    String nombre;
+    String raza;
+    int edad;
+    String nombreDueño;
 
     //Constructor parametrizado
     public Animales(String nombre, String raza, int edad, String nombreDueño) {
